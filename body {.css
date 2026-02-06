@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background: #050505;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.app {
+    padding: 20px;
+}
+
+.logo {
+    text-align: center;
+    color: #00ffff;
+    text-shadow: 0 0 15px #00ffff;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #0c0c0c;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px #00ffff22;
+}
+
+.card h2 {
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+.price {
+    display: block;
+    margin: 10px 0;
+    color: #00ff99;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    border: 1px solid #00ffff;
+    color: #00ffff;
+    border-radius: 8px;
+}
