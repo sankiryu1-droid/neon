@@ -2,7 +2,7 @@ const tg = window.Telegram.WebApp;
 tg.expand();
 
 function order(product) {
-    fetch('https://ТВОЙ_BACKEND_URL/api/order', {
+    fetch('https://neon1-inky.vercel.app/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -12,4 +12,5 @@ function order(product) {
     });
 
     tg.showAlert("🔥 Заявка отправлена!");
+
 }
